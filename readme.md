@@ -1,6 +1,17 @@
 # Memory Game
 
-A memory matching game built with React and Next.js.
+A fun and interactive memory game built with React and Next.js. Test your memory by matching pairs of emojis in this customizable game with multiple difficulty levels.
+
+## Features
+
+- Multiple difficulty levels: Easy, Medium, Hard, and Expert
+- Dynamic game board generation
+- Responsive design for various screen sizes
+- Move counter and matched pairs tracker
+- Glitch effect animation for matched pairs
+- Confetti animation on game completion
+- Reset game and change difficulty options
+
 
 ## Getting Started
 
@@ -25,13 +36,13 @@ yarn install
 ```
 This will install all the dependencies listed in the package.json file, including:
 
-- react
-- react-dom
-- next
-- @types/react
-- @types/next
-- confetti
-- typescript
+- React
+- Next.js
+- TypeScript
+- Tailwind CSS
+- shadcn/ui components
+- canvas-confetti for celebration effects
+  
 ## Development
 To start the development server, run:
 
