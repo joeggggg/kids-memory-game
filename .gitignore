@@ -1,0 +1,44 @@
+# Node.js and Next.js files
+node_modules/
+.next/
+public/
+
+# TypeScript files
+*.tsbuildinfo
+*.tsconfig
+
+# IDE and editor files
+.vscode/
+.idea/
+.editorconfig
+
+# Build and deployment files
+build/
+dist/
+deploy/
+
+# Miscellaneous files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.log
+*.tmp
+*.bak
+
+# Next.js specific files
+.next/babel.config.js
+.next/build-manifest.json
+.next/compiled/
+.next/development-static/
+.next/optimized/
+.next/prerender-manifest.json
+.next/routes-manifest.json
+.next/static/
+.next/webpack.config.js
+
+# TypeScript specific files
+tsconfig.json
+tslint.json
+
+# Confetti library files
+confetti.json
